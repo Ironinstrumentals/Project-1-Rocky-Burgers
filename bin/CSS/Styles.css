@@ -41,13 +41,47 @@ footer {
   width: 60px;
   height: 30px; }
 
+.mapouter {
+  margin: 0;
+  padding: 0;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  text-align: right;
+  height: 100%;
+  width: 100%; }
+
+.gmap_canvas {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background: none !important;
+  height: 100%;
+  width: 100%; }
+
 @media (min-width: 800px) {
   #carouselExampleFade {
     height: 0;
     width: 0; }
   .carousel-inner {
     height: 0;
-    widtH: 0; } }
+    widtH: 0; }
+  .mapouter {
+    margin: 0;
+    padding: 0;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    text-align: right;
+    height: 100%;
+    width: 100%; }
+  .gmap_canvas {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: none !important;
+    height: 100%;
+    width: 100%; } }
 
 .fa {
   padding: 20px;
