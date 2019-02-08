@@ -1,3 +1,4 @@
+.DS_Store
 .idea
 # Logs
 logs
@@ -75,3 +76,4 @@ typings/
 
 # FuseBox cache
 .fusebox/
+.idea/workspace.xml
